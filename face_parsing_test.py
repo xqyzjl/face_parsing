@@ -4,7 +4,7 @@ import time
 import numpy as np
 import torch
 from argparse import ArgumentParser
-from ibug.face_detection import RetinaFacePredictor
+from ibug.face_detection.retina_face import RetinaFacePredictor
 from ibug.face_parsing import FaceParser as RTNetPredictor
 from ibug.face_parsing.utils import label_colormap
 

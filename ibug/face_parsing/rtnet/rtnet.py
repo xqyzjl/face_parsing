@@ -1,7 +1,7 @@
 import math
 import torch
 import torch.nn as nn
-from ibug.roi_tanh_warping import (roi_tanh_polar_to_roi_tanh,
+from ibug.roi_tanh_warping.pytorch_impl import (roi_tanh_polar_to_roi_tanh,
                                    roi_tanh_to_roi_tanh_polar)
 
 
